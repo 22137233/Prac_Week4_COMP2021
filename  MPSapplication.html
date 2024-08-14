@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">  
+    <title>MPSapplication</title>
+</head>
+<body>
+    <h1>Residental Application Form</h1>
+    <!-- This is the main class which contain the form-->
+     <div class = "form_Body">
+
+        <div class="form-style">
+                    <label for="fname">Full Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+      </div>
+    <!-- In this residental can entre there address -->
+       <div class="form-style">
+                <label for="fname">Residental Address:</label><br>
+                <input type="text" id="address" name="address" ><br>
+    </div>
+   <!-- In this residental can entre there email -->
+        <div class="form-style">
+                <label for="fname">Email Address: </label><br>
+                <input type="text" id="mail" name="mail"><br>
+        </div>
+<!--  In this residental can entre there Date of Birth -->
+        
+        <div class="form-style">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <!--  In this residental can entre there Vechical Registration Number -->
+
+        <div class="form-style">
+             
+                <label for="fname">Vechical Registration Number: </label><br>
+                <input type="text" id="Number " name="Number "><br>
+     </div>
+        <!--  In this residental can choose there vehicle type -->
+        <div class="form-group">
+            <label for="vecicle_catergory">Type of Vehicle:</label>
+            <select id="vehicle_item" name="vehicle_item" required>
+                <option value="Car">Car</option>
+                <option value="Motorcycle">Motorcycle</option>
+                <option value="Truck">Truck</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+      <!--  In this residental can entre there reason for the application -->
+    <div class="form-style">
+            <label for="fname">Reason For Application: </label><br>
+            <input type="text" id="Number " name="Number "><br>
+   </div>
+      <!--  In this residental can entre there preferred permit date -->
+        <div class="style-form">
+            <label for="dob">preferred permit date:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+     <!--   In this residental can entre comment -->
+        <div class="form-group">
+            <label for="comments">Special Requirements or Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+        
+          <!-- Buttons Section -->
+          <div class="form-buttons">
+            <button type="submit" id="submit_btn">Submit Application</button>
+            <button type="button" id="review_status_btn">Review Status</button>
+            <button type="reset" id="reset_btn">Reset Form</button>
+        </div>
+     </div>
+</body>
+</html>
